@@ -104,7 +104,7 @@ Write-Host -Object 'Downloading Marketplace...' -ForegroundColor 'Cyan'
 $marketArchivePath = "$marketAppPath\marketplace.zip"
 $unpackedFolderPath = "$marketAppPath\marketplace-dist"
 $Parameters = @{
-  Uri             = 'https://github.com/xNightWulf69/marketplace/releases/download/1.1/marketplace.zip'
+  Uri             = 'https://github.com/xNightWulf69/marketplace/releases/download/1.2/marketplace.zip'
   UseBasicParsing = $true
   OutFile         = $marketArchivePath
 }
